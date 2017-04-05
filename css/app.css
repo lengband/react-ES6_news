@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.header {
+  height: 50px;
+  line-height: 50px;
+  background: #3e86ce;
+  color: #fff;
+}
+.header .go-back {
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+.header .go-back .arrow {
+  width: 0;
+  font-size: 0;
+  border: 10px solid transparent;
+  border-right: 10px solid #ffffff;
+  position: absolute;
+  top: 14px;
+  left: 0;
+}
+.header .go-back .blue {
+  width: 0;
+  font-size: 0;
+  border: 10px solid transparent;
+  border-right: 10px solid #3e86ce;
+  top: 14px;
+  left: 3px;
+}
+.header .login {
+  float: right;
+  margin-right: 10px;
+}
+.header h1 {
+  font-size: 25px;
+  text-align: center;
+  text-indent: 20px;
+}
+.home li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.home li img {
+  width: 80px;
+  height: 60px;
+  float: left;
+}
+.home li .content {
+  margin-left: 90px;
+  text-align: left;
+}
+.home li h2 {
+  padding-bottom: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.home li p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.home li p .home-comment {
+  float: right;
+}
+.detail {
+  font-size: 14px;
+  text-align: left;
+  line-height: 30px;
+}
+.detail h2 {
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+}
+.detail .detail-state {
+  padding: 0 20px;
+}
+.detail .right {
+  float: right;
+}
+.detail img {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.detail .content {
+  padding: 0 20px;
+}
+.detail .show-comment {
+  height: 40px;
+  line-height: 40px;
+  margin: 20px 20px 40px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background: #3e86ce;
+  border-radius: 6px;
+}
+.comment .comment-input {
+  padding: 30px 20px;
+}
+.comment .comment-input textarea {
+  background: #efefef;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  display: block;
+  outline: none;
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.comment .submit-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: #3e86ce;
+  color: #fff;
+  font-size: 16px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.comment ul {
+  clear: both;
+  padding: 0 20px 40px;
+}
+.comment ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+  text-align: left;
+}
+.comment ul li h3 {
+  line-height: 40px;
+  font-size: 16px;
+}
+.comment ul li p {
+  line-height: 20px;
+  font-size: 14px;
+}
+.comment ul li span {
+  font-size: 12px;
+  line-height: 30px;
+}
